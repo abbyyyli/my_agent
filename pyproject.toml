@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "my_llm_project"
+version = "0.1.0"
+description = "A project with TensorFlow and other dependencies"
+authors = ["Abby Li <xiaochuxiaopi@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+
+# Hugging Face ecosystem
+transformers = "*"
+datasets = "*"
+tokenizers = "*"
+
+# TensorFlow
+tensorflow = "2.14.0"
+
+# Utility libraries
+numpy = "<2"
+pandas = "*"
+scikit-learn = "*"
+nltk = "^3.9.1"
+spacy = "^3.8.4"
+langchain-openai = "^0.3.2"
+openai = "^1.60.1"
+python-dotenv = "^1.0.1"
+k2 = {path = "/Users/shiaupi/Downloads/k2-1.24.4.dev20240218+cpu.torch2.0.1-cp310-cp310-macosx_12_0_x86_64.whl"}
+notebook = "^7.3.2"
+ipykernel = "^6.29.5"
+tool = "^0.8.0"
+sentence-transformers = "^3.4.0"
+qdrant-client = "^1.13.2"
+line-bot-sdk = "^3.16.1"
+flask = "^3.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

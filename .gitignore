@@ -1,0 +1,46 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment directories
+env/
+venv/
+
+# Poetry lock file
+poetry.lock
+
+# Environment variables
+.env
+
+# Logs and debugging files
+*.log
+*.out
+*.err
+logs/
+
+# Database files
+*.sqlite3
+*.db
+
+# Cache files
+*.cache
+*.pkl
+*.h5
+
+# Test coverage files
+.coverage
+coverage.xml
+htmlcov/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+
+
+
+
